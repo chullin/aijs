@@ -1,0 +1,12 @@
+﻿f(x, y) = x^2 + y^2
+偏導數符號f(x, y)/偏導數符號X =2x
+偏微分，如果不是分母的符號就當作常數
+
+ex:
+f(x, y) = x*y
+偏導數符號f(x, y)/偏導數符號X =y
+
+偏微分方程式（英語：partial differential equation，縮寫作PDE
+
+一維：斜率
+二維：梯度
