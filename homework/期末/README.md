@@ -1,8 +1,8 @@
 # 目錄
 
-* [DFS(Depth-first Search)深度優先搜尋法](https://github.com/chullin/aijs/tree/master/homework/DFS.md)
-* [BFS(Breadth-first Search)廣度優先搜尋](https://github.com/chullin/aijs/tree/master/homework/BFS.md)
-* [四皇后問題(八皇后的簡易版)](https://github.com/chullin/aijs/tree/master/homework/queens.md)
+* [DFS(Depth-first Search)深度優先搜尋法](https://github.com/chullin/aijs/blob/master/homework/%E6%9C%9F%E6%9C%AB/DFS.md)
+* [BFS(Breadth-first Search)廣度優先搜尋](https://github.com/chullin/aijs/tree/master/homework/%E6%9C%9F%E6%9C%AB/BFS.md)
+* [四皇后問題(八皇后的簡易版)](https://github.com/chullin/aijs/tree/master/homework/%E6%9C%9F%E6%9C%AB/queens.md)
 
 
 
