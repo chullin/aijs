@@ -1,32 +1,23 @@
 #include<stdio.h>
 
- // ÀË¬dª¬ºA¬O§_¦Xªk 
-
-
-int Validate(int a[4][4], int i, int j) {
-    
+ // æª¢æŸ¥ç‹€æ…‹æ˜¯å¦åˆæ³•
+int Validate(int a[4][4], int i, int j) {   
     int x, y;
-    // ¥ª¤W¹ï¨¤¬O§_¦s¦b¬Ó¦Z 
+    // å·¦ä¸Šå°è§’æ˜¯å¦å­˜åœ¨çš‡å
     for(x = i - 1, y = j - 1; x >= 0 && y >= 0; x--, y--) {
-
             if(a[x][y] == 1) {
-
                 return 0;
             }
     }
-    // ¥k¤W¹ï¨¤¬O§_¦s¦b¬Ó¦Z 
+    // æœ‰ä¸Šå°è§’æ˜¯å¦å­˜åœ¨çš‡å
     for(x = i - 1,y = j + 1; x >= 0 && y < 4; x--,y++) {
-
             if(a[x][y] == 1) {
-
                 return 0;
             }
     }
-    // ©Ò¦b¦C¬O§_¦s¦b¬Ó¦Z
+    // æ‰€åœ¨åˆ—æ˜¯å¦å­˜åœ¨çš‡å
     for(x = i - 1; x >= 0; x--) {
-
         if(a[x][j] == 1) {
-
             return 0;
         }
     }
@@ -34,31 +25,24 @@ int Validate(int a[4][4], int i, int j) {
 }
     
 	
-	// function ¦^·¹ 
+	// function å›æº¯
 int Resolve(int a[4][4], int i) {
-    
     int j, k;
-    // §PÂ_¬O§_¬°¥Ø¼Ğª¬ºA 
+    // åˆ¤æ–·æ˜¯å¦ç‚ºç›®æ¨™ç‹€æ…‹ 
     if(i == 4) {
-
         for(j = 0; j < 4; j++) {
-
             for(k = 0; k < 4; k++) {
-
                 printf("%d ", a[j][k]);
             }
             printf("\n");
         }
         return 1;
     }
-    // ´`Àô³W«h 
+    // å¾ªç’°è¦å‰‡
     for(j = 0; j < 4; j++) {
-
         a[i][j] = 1;
         if(Validate(a, i, j)) {
-
             if(Resolve(a, i + 1)){
-
                 a[i][j] = 0;
                 printf("\n");
                 continue;
@@ -77,9 +61,7 @@ int main(int argc, char *argv[]) {
     int a[4][4];
     int i, j;
     for(i = 0; i < 4; i++) {
-
         for(j = 0; j < 4; j++) {
-
             a[i][j] = 0;
         }
     }
