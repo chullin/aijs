@@ -22,7 +22,7 @@
   }
 ```
 
-![](\picture\BFS.gif)
+<img src="picture\BFS.gif" width="400px" />
 
 以上為廣度優先搜尋的概念。
 
